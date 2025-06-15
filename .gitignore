@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter-related
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# Environment variables or virtual envs
+.env
+venv/
+
+# Ignore data except required CSV
+data/*
+!data/machine_temperature_system_failure.csv
